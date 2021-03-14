@@ -14,30 +14,29 @@ class Listpage extends Component {
         }
     }
     render() {
-        const { Persons } = this.props;
+        const { Totals } = this.props;
         return (
             <>
                 <Table style={tablestyle} hover>
                     <thead>
                     <tr>
+                        <th>방문허용ID</th>
                         <th>환자</th>
-                        <th>성별</th>
-                        <th>생년월일</th>
-                        <th>인종</th>
-                        <th>민족</th>
-                        <th>나이</th>
+                        <th>방문자</th>
+                        <th>시작 시간</th>
+                        <th>끝 시간</th>
                     </tr>
                     </thead>
                     <tbody>
-                    {Persons &&
-                    Persons.map((person) => {
+                    {Totals &&
+                    Totals.map((total) => {
                         return (
                             <TotalCard
-                                person_id={person.person_id}
-                                gender_source_value={person.gender_source_value}
-                                birth_datetime={person.birth_datetime}
-                                race_source_value={person.race_source_value}
-                                ethnicity_source_value={person.ethnicity_source_value}
+                                visit_occurrence_id={total.visit_occurrence_id}
+                                person_id={total.person_id}
+                                visit_concept_id={total.visit_concept_id}
+                                visit_start_datetime={total.visit_start_datetime}
+                                visit_end_datetime={total.visit_end_datetime}
                                 stateRefresh = {this.props.stateRefresh}
                             />
                         );

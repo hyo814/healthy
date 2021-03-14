@@ -24,24 +24,24 @@ class TotalList extends Component {
         this.state = {
             completed: 0,
             loading: false,
-            persons: [],
+            totals: [],
         }
         this.stateRefresh = this.stateRefresh.bind(this);
     }
     stateRefresh = () => {
         this.setState({
-            persons: [],
+            totals: [],
             completed: 0
         })
-        this.loadPerson();
+        this.loadTotal();
     }
 
-    loadPerson = async () => {
-        await axios.get('http://localhost:4000/person')
+    loadTotal = async () => {
+        await axios.get('http://localhost:4000/visit_occurrence')
             .then(response => {
                 this.setState({
                     loading: true,
-                    persons: response.data
+                    totals: response.data
                 });
             })
             .catch(e => {
@@ -53,14 +53,14 @@ class TotalList extends Component {
     };
 
     componentDidMount() {
-        this.loadPerson();
+        this.loadTotal();
     }
 
     render() {
         return (
             <>
                 <div>
-                    <Listpage Persons={this.state.persons} stateRefresh={this.stateRefresh} />
+                    <Listpage Totals={this.state.totals} stateRefresh={this.stateRefresh} />
                 </div>
             </>
         );
