@@ -27,7 +27,7 @@ ul, li {
     text-align: right;
 }
 
-#cupid {
+#healthy {
     margin-top: 1%;
     margin-right: 20%;
     text-align: right;
@@ -40,7 +40,7 @@ ul, li {
     font-size: medium;
     font-family:'Do Hyeon', sans-serif;
 }
-#cupid > h1 > a {
+#healthy > h1 > a {
     text-decoration: none;
     color: #4263eb ;
 }

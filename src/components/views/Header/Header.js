@@ -32,7 +32,12 @@ class Header extends Component {
                                     <li><a href="back" aria-label="subemenu">사망여부</a></li>
                                 </ul>
                             </li>
-                            <li><a href="total">Total</a></li>
+                            <li><a href="#">Total&nbsp;<FiChevronDown/></a>
+                                <ul id="sub-menu">
+                                    <li><a href="total" aria-label="subemenu"> 전체방문수 </a></li>
+                                    <li><a href="condition" aria-label="subemenu"> 진단 정보 </a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">Chart&nbsp;<FiChevronDown/></a>
                                 <ul id="sub-menu">
                                     <li><a href="gender" aria-label="subemenu"> 성별 </a></li>
