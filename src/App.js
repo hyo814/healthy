@@ -9,6 +9,7 @@ import RaceChart from "./components/views/Chart/RaceChart";
 import EthnicityChart from "./components/views/Chart/EthnicityChart";
 import TotalList from "./components/views/Total/TotalList";
 import DeathList from "./components/views/Death/DeathList";
+import ConditionList from "./components/views/Conditon/ConditionList";
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
             <ScrollToTop>
               <Switch>
                 <Route exact path="/" component={PersonList}/>
-                  <Route exact path="/death" component={DeathList}/>
+                <Route exact path="/condition" component={ConditionList}/>
+                <Route exact path="/death" component={DeathList}/>
                 <Route path="/gender" component={GenderChart}/>
                 <Route path="/race" component={RaceChart}/>
                 <Route path="/ethnicity" component={EthnicityChart}/>
