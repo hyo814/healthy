@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "bootstrap": "4.1.1",
+    "datagrid": "^0.6.2",
     "font-awesome": "4.7.0",
     "highcharts": "^9.0.1",
     "lodash": "4.17.10",

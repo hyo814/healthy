@@ -4180,6 +4180,13 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
+datagrid@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/datagrid/-/datagrid-0.6.2.tgz#eb15ecfedc5344bc22a81ca1caa15c2e5ba1025d"
+  integrity sha512-qq35DLzb7LGAJkEdSXdxUlYBBkaVG/XhCtcwvXtkldbrcYfw8X86pibz3gkXD21DxGE92p0Dp5eyCbGynQkNcQ==
+  dependencies:
+    tinyemitter "^1.0.1"
+
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -11090,6 +11097,11 @@ tiny-warning@^1.0.0, tiny-warning@^1.0.2, tiny-warning@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
   integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
+
+tinyemitter@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/tinyemitter/-/tinyemitter-1.0.1.tgz#1c9c8c065c684c69950b36ff0e451e12da2164d4"
+  integrity sha512-E32KX7eRwjInGPSoOeaKLsrBKVMxkMfqQTEVm3huD+tNhO4OmTsFOQH0kpVyrOuEh+OBTN4i/AG8Sp7MlxOk9Q==
 
 tmpl@1.0.x:
   version "1.0.4"
