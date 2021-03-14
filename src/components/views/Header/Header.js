@@ -23,15 +23,7 @@ class Header extends Component {
                                     <li><a href="death" aria-label="subemenu">사망여부</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Filter&nbsp;<FiChevronDown/></a>
-                                <ul id="sub-menu">
-                                    <li><a href="arm" aria-label="subemenu">성별</a></li>
-                                    <li><a href="shoulder" aria-label="subemenu">나이</a></li>
-                                    <li><a href="lower_body" aria-label="subemenu">인종</a></li>
-                                    <li><a href="chest" aria-label="subemenu">민족</a></li>
-                                    <li><a href="back" aria-label="subemenu">사망여부</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="filter">Filter&nbsp;</a></li>
                             <li><a href="#">Total&nbsp;<FiChevronDown/></a>
                                 <ul id="sub-menu">
                                     <li><a href="total" aria-label="subemenu"> 전체방문수 </a></li>
